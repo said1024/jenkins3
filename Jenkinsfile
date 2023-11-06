@@ -1,8 +1,5 @@
 pipeline {
     agent any 
-    environment {
-        PATH = "$PATH:C:\Program Files\Git\bin\git.exe"
-    }
     stages {
         stage('clonings') { 
             steps {
